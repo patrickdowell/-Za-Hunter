@@ -48,9 +48,57 @@
                     <view key="view" contentMode="scaleToFill" id="NWv-He-mZH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2AC-3Y-iyP">
+                                <rect key="frame" x="87.5" y="119" width="200" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Jsg-DV-ubZ"/>
+                                    <constraint firstAttribute="height" constant="50" id="fRc-Ob-avj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zy5-Lh-4HL">
+                                <rect key="frame" x="87.5" y="445" width="200" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="TvM-od-QY0"/>
+                                    <constraint firstAttribute="height" constant="50" id="zUj-is-OFs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xd0-gd-mWK">
+                                <rect key="frame" x="87.5" y="229" width="200" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="VoB-q8-VA3"/>
+                                    <constraint firstAttribute="width" constant="200" id="eUV-xE-mWJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zy5-Lh-4HL" firstAttribute="centerX" secondItem="NWv-He-mZH" secondAttribute="centerX" id="DFX-2K-9uz"/>
+                            <constraint firstItem="zy5-Lh-4HL" firstAttribute="centerX" secondItem="NWv-He-mZH" secondAttribute="centerX" id="HcG-8P-yBU"/>
+                            <constraint firstItem="Xd0-gd-mWK" firstAttribute="centerX" secondItem="NWv-He-mZH" secondAttribute="centerX" id="MRC-aO-gVp"/>
+                            <constraint firstItem="2AC-3Y-iyP" firstAttribute="centerX" secondItem="NWv-He-mZH" secondAttribute="centerX" id="PFx-Zn-K7R"/>
+                            <constraint firstItem="2AC-3Y-iyP" firstAttribute="centerX" secondItem="NWv-He-mZH" secondAttribute="centerX" id="X77-bh-4uz"/>
+                            <constraint firstItem="Xd0-gd-mWK" firstAttribute="centerX" secondItem="NWv-He-mZH" secondAttribute="centerX" id="Z31-GJ-O0v"/>
+                            <constraint firstItem="zy5-Lh-4HL" firstAttribute="top" secondItem="Xd0-gd-mWK" secondAttribute="bottom" constant="66" id="thE-6R-MHz"/>
+                            <constraint firstItem="2AC-3Y-iyP" firstAttribute="top" secondItem="3Lv-ZE-a8r" secondAttribute="top" constant="55" id="vnq-3B-vLI"/>
+                            <constraint firstItem="Xd0-gd-mWK" firstAttribute="top" secondItem="2AC-3Y-iyP" secondAttribute="bottom" constant="60" id="yiZ-NS-DxS"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="3Lv-ZE-a8r"/>
                     </view>
+                    <connections>
+                        <outlet property="addressLabel" destination="Xd0-gd-mWK" id="rCo-zZ-d2v"/>
+                        <outlet property="nameLabel" destination="2AC-3Y-iyP" id="GeQ-zN-yjh"/>
+                        <outlet property="phoneLabel" destination="zy5-Lh-4HL" id="d7X-mI-q5u"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pfr-4o-1yR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
