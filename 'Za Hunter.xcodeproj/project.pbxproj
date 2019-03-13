@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C128E24223817750054B94A /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C128E23223817750054B94A /* LocationDetailsViewController.swift */; };
 		3CAB4AF52236C08300C98035 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB4AF42236C08300C98035 /* AppDelegate.swift */; };
 		3CAB4AF72236C08300C98035 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAB4AF62236C08300C98035 /* ViewController.swift */; };
 		3CAB4AFA2236C08300C98035 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CAB4AF82236C08300C98035 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C128E23223817750054B94A /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsViewController.swift; sourceTree = "<group>"; };
 		3CAB4AF12236C08300C98035 /* 'Za Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "'Za Hunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CAB4AF42236C08300C98035 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CAB4AF62236C08300C98035 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				3CAB4AF42236C08300C98035 /* AppDelegate.swift */,
 				3CAB4AF62236C08300C98035 /* ViewController.swift */,
+				3C128E23223817750054B94A /* LocationDetailsViewController.swift */,
 				3CAB4AF82236C08300C98035 /* Main.storyboard */,
 				3CAB4AFB2236C08500C98035 /* Assets.xcassets */,
 				3CAB4AFD2236C08500C98035 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C128E24223817750054B94A /* LocationDetailsViewController.swift in Sources */,
 				3CAB4AF72236C08300C98035 /* ViewController.swift in Sources */,
 				3CAB4AF52236C08300C98035 /* AppDelegate.swift in Sources */,
 			);
