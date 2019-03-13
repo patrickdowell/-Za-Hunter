@@ -7,14 +7,15 @@
 //
 
 import UIKit
+import MapKit
 
 class LocationDetailsViewController: UIViewController {
-
+    
+    var selectedMapItem = MKMapItem()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print(selectedMapItem)
     }
-    
-
     
 }
