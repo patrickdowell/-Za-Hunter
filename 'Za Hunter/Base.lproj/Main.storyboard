@@ -59,16 +59,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zy5-Lh-4HL">
-                                <rect key="frame" x="87.5" y="445" width="200" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="TvM-od-QY0"/>
-                                    <constraint firstAttribute="height" constant="50" id="zUj-is-OFs"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xd0-gd-mWK">
                                 <rect key="frame" x="87.5" y="229" width="200" height="150"/>
                                 <constraints>
@@ -79,6 +69,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zy5-Lh-4HL">
+                                <rect key="frame" x="87.5" y="445" width="200" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="TvM-od-QY0"/>
+                                    <constraint firstAttribute="height" constant="50" id="zUj-is-OFs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YV5-Jv-IhF">
+                                <rect key="frame" x="152.5" y="553" width="70" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="2Bc-Y9-IEr"/>
+                                    <constraint firstAttribute="width" constant="70" id="UGc-h2-SDE"/>
+                                </constraints>
+                                <state key="normal" title="Directions"/>
+                                <connections>
+                                    <action selector="onDirectionsButtonTapped:" destination="UZo-nY-NlQ" eventType="touchUpInside" id="w4g-p8-6K4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -87,7 +98,9 @@
                             <constraint firstItem="Xd0-gd-mWK" firstAttribute="centerX" secondItem="NWv-He-mZH" secondAttribute="centerX" id="MRC-aO-gVp"/>
                             <constraint firstItem="2AC-3Y-iyP" firstAttribute="centerX" secondItem="NWv-He-mZH" secondAttribute="centerX" id="PFx-Zn-K7R"/>
                             <constraint firstItem="2AC-3Y-iyP" firstAttribute="centerX" secondItem="NWv-He-mZH" secondAttribute="centerX" id="X77-bh-4uz"/>
+                            <constraint firstItem="YV5-Jv-IhF" firstAttribute="centerX" secondItem="NWv-He-mZH" secondAttribute="centerX" id="XNC-vR-RxY"/>
                             <constraint firstItem="Xd0-gd-mWK" firstAttribute="centerX" secondItem="NWv-He-mZH" secondAttribute="centerX" id="Z31-GJ-O0v"/>
+                            <constraint firstItem="YV5-Jv-IhF" firstAttribute="top" secondItem="zy5-Lh-4HL" secondAttribute="bottom" constant="58" id="cfg-ZM-Fb6"/>
                             <constraint firstItem="zy5-Lh-4HL" firstAttribute="top" secondItem="Xd0-gd-mWK" secondAttribute="bottom" constant="66" id="thE-6R-MHz"/>
                             <constraint firstItem="2AC-3Y-iyP" firstAttribute="top" secondItem="3Lv-ZE-a8r" secondAttribute="top" constant="55" id="vnq-3B-vLI"/>
                             <constraint firstItem="Xd0-gd-mWK" firstAttribute="top" secondItem="2AC-3Y-iyP" secondAttribute="bottom" constant="60" id="yiZ-NS-DxS"/>
